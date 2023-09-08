@@ -35,14 +35,19 @@ const Index = () => {
 
   return (
     <div className="container mx-auto px-4 py-8">
+      {/* Updated header text */}
+      <h1 className="text-3xl font-bold text-center mb-2 text-red-600">
+        <span className="text-blue-600">youtube Thumbnail Downloader</span> 
+      </h1>
+
       <header className="text-center mb-8">
-        <h1 className="text-3xl font-bold mb-2">
-          Youtube Thumbnail Downloader
-        </h1>
         <p className="text-gray-600">
+          {/* Updated description */}
           Download high-quality thumbnails from YouTube videos.
         </p>
       </header>
+
+      {/* Rest of your content */}
       <div className="text-center">
         <input
           type="text"
@@ -76,6 +81,23 @@ const Index = () => {
           </div>
         </div>
       )}
+
+      {/* Centered description in four small lines */}
+      <div className="mt-8 text-center">
+  <div className="text-gray-600">
+    <p className="text-3xl font-semibold">
+      Download YouTube and Vimeo thumbnail images
+    </p>
+    <p className="text-3xl font-semibold">
+      of all quality for free.
+    </p>
+    <p className="text-3xl font-semibold">
+      This application lets you download thumbnails.
+    </p>
+  </div>
+</div>
+
+
     </div>
   );
 };
